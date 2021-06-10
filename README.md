@@ -19,6 +19,8 @@ In order to access the Twitter Streaming API, you need to register an applicatio
 python sentiment.py
 ```
 
+Press Ctr + C to end the program
+
 
 ## Roadmap
 
