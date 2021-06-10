@@ -54,6 +54,10 @@ class TweetStreamListener(StreamListener):
 
 if __name__ == '__main__':
 
+    # asks the user of rin keyword
+    keyword = input('Please enter a word to analyze:\n')
+    print('Determining the sentiment associated to #'+keyword+'...\n')
+
     # create instance of the tweepy tweet stream listener
     listener = TweetStreamListener()
 
@@ -65,4 +69,4 @@ if __name__ == '__main__':
     stream = Stream(auth, listener)
 
     # search twitter for "congress" keyword
-    stream.filter(track=['congress'])
+    stream.filter(track=[keyword])
