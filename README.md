@@ -19,13 +19,13 @@ Stream the sentiment associated to a word:
 ```
 python sentiment-word.py
 ```
+(Press Ctr + C to end the program)
+
 
 Get the sentiment associated to a user's last 10 tweets:
 ```
 python sentiment-username.py
 ```
-
-Press Ctr + C to end the program
 
 
 ## Roadmap
