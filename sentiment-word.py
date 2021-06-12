@@ -54,7 +54,7 @@ class TweetStreamListener(StreamListener):
 
 if __name__ == '__main__':
 
-    # asks the user of rin keyword
+    # asks for a keyword
     keyword = input('Please enter a word to analyze:\n')
     print('Determining the sentiment associated to #'+keyword+'...\n')
 
