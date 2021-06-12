@@ -32,7 +32,8 @@ python sentiment-username.py
 
 Backend:
 - Make API endpoints
-- Use Textblob to get more data
+- Use Tweepy to get more data
+- Use Textblob to analyze more data
 
 Fronted:
 - Make frontend
