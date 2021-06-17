@@ -10,7 +10,7 @@ Install Matplotlib, Pandas, Tweepy and TextBlob libraries:
 pip install tweepy textblob matplotlib pandas
 ```
 
-In order to access the Twitter Streaming API, you need to register an application at http://apps.twitter.com. Once created, you should be redirected to your app’s page, where you can get the consumer key and consumer secret and create an access token under the “Keys and Access Tokens” tab. Use these in config_example.py and rename the file as config.py.
+In order to access the Twitter Streaming API, you need to register an application at http://apps.twitter.com. Once created, you should be redirected to your app’s page, where you can get the consumer key and consumer secret and create an access token under the “Keys and Access Tokens” tab. Use these in config_example.py and change the name of the file to config.py.
 
 
 ## Run
